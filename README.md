@@ -1,9 +1,12 @@
+<p align="center"><img src="assets/matrix-banner.gif" width="100%" alt="matrix rain" /></p>
+
 <h1 align="center">Hrydarie</h1>
 
 <p align="center">
   <b>Independent security researcher · Bug bounty hunter</b><br/>
   Smart contracts &amp; web application security — findings proven, not theorized.
 </p>
+<p align="center"><img src="assets/terminal.svg" width="100%" alt="terminal session" /></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/focus-smart%20contract%20auditing-1f6feb?style=flat-square" alt="Smart contract auditing" />
