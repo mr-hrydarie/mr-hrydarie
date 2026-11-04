@@ -11,7 +11,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/focus-smart%20contract%20auditing-1f6feb?style=flat-square" alt="Smart contract auditing" />
   <img src="https://img.shields.io/badge/focus-web%20application%20security-1f6feb?style=flat-square" alt="Web application security" />
-  <img src="https://img.shields.io/badge/based-Indonesia-red?style=flat-square" alt="Indonesia" />
 </p>
 
 ---
