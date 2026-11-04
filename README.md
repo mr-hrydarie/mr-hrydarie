@@ -1,32 +1,49 @@
-<p align="center"><img src="assets/matrix-banner.gif" width="100%" alt="matrix rain" /></p>
-
-<h1 align="center">Hrydarie</h1>
+<h1 align="center">mr-hrydarie</h1>
 
 <p align="center">
-  <b>Independent security researcher · Bug bounty hunter</b><br/>
-  Smart contracts &amp; web application security — findings proven, not theorized.
+  <b>Security Researcher — Smart Contract &amp; Web Application Security</b>
 </p>
-<p align="center"><img src="assets/terminal.svg" width="100%" alt="terminal session" /></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/focus-smart%20contract%20auditing-1f6feb?style=flat-square" alt="Smart contract auditing" />
-  <img src="https://img.shields.io/badge/focus-web%20application%20security-1f6feb?style=flat-square" alt="Web application security" />
+  I find vulnerabilities in production systems, prove them with working exploits,<br/>
+  and quantify the impact before I report. No scanner noise. No theoretical findings.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/EVM%20%2F%20Solidity-smart%20contract%20auditing-1f6feb?style=flat-square" alt="EVM / Solidity" />
+  <img src="https://img.shields.io/badge/Solana%20%2F%20Anchor-program%20security-1f6feb?style=flat-square" alt="Solana / Anchor" />
+  <img src="https://img.shields.io/badge/Soroban%20%2F%20Rust-Stellar%20contracts-1f6feb?style=flat-square" alt="Soroban / Rust" />
+  <img src="https://img.shields.io/badge/API%20%26%20Web-application%20security-1f6feb?style=flat-square" alt="API and Web" />
 </p>
 
 ---
 
 ### About
 
-I hunt vulnerabilities in production systems and pre-launch codebases, and I only report what I can prove: every finding ships with a working proof of concept, a root-cause trace, and a quantified impact under the programme's own severity rubric.
+Independent bug bounty hunter working directly with project teams and public programmes. My reports are built to survive triage: a root-cause trace to the exact code path, a self-contained proof of concept that reproduces the issue end to end, and a loss figure derived from the programme's own severity rubric.
 
-My working method is simple — map the full attack surface first, then hammer feature *interactions*: the states a system reaches when two individually-safe features combine. An HTTP 200 is not proof an operation succeeded, and an error is not proof a system is safe; I verify state changes, side effects, and downstream consequences.
+My method is surface-first. I map the complete attack surface before testing anything, then work the *interactions* between features, roles, and backend processes — the states a system reaches when individually safe components combine. An HTTP 200 is not proof an operation succeeded, and an error message is not proof a system is safe; I verify state changes, side effects, and downstream consequences.
 
-### Focus areas
+### Expertise
 
-- **Smart contract auditing** — Solidity / EVM, Soroban (Stellar, Rust), Cosmos SDK (Go), Move ecosystems
-- **Accounting & invariant breaks** — share-price manipulation, solvency drift, cap and rate-limit bypasses
-- **Authentication & access control** — authorization gaps, IDOR, session and API-key trust boundaries
-- **Web application security** — cross-account isolation, webhook trust, business-logic abuse
+- **Smart contract security** — EVM/Solidity, Solana/Anchor, Soroban (Stellar), Cosmos SDK (Go), Move
+- **Accounting & invariant breaks** — share-price and oracle manipulation, solvency drift, cap/rate-limit accounting flaws, reward and fee miscalculation
+- **Authorization & trust boundaries** — missing or mis-scoped access control, IDOR, API-key and agent-key scope excess, session and signature replay
+- **Web & API security** — cross-account data exposure, unauthenticated read layers, webhook and payment-flow trust, business-logic abuse
+
+### Public record
+
+- **Published advisories (credited reporter):**
+  - [GHSA-6qf8-mhpm-jqf6](https://github.com/priors-agents/priors/security/advisories/GHSA-6qf8-mhpm-jqf6) — AutoRepay plan misdirection, Priors (Robinhood Chain)
+  - [GHSA-pr4v-mc2c-995x](https://github.com/priors-agents/priors/security/advisories/GHSA-pr4v-mc2c-995x) — x402 double-signing on retry, @priors/agentkit
+- **Platforms:** HackerOne · Bugcrowd · YesWeHack · HackenProof — identity-verified accounts
+- **Self-hosted programmes:** direct engagements under each project's own SECURITY.md; reports are private by default and disclosed only in coordination with the vendor
+
+### How I work
+
+1. **Reproduce** — every claim is demonstrated live or on a local fork/validator, never inferred from code reading alone
+2. **Quantify** — impact stated in concrete terms: funds at risk, accounts affected, preconditions an attacker actually needs
+3. **Report responsibly** — through the programme's own channel, with reproduction steps a maintainer can run in minutes
 
 ### Tooling
 
@@ -39,15 +56,12 @@ My working method is simple — map the full attack surface first, then hammer f
   <img src="https://img.shields.io/badge/Foundry-1C1C1C?style=flat-square" alt="Foundry" />
   <img src="https://img.shields.io/badge/Slither-1C1C1C?style=flat-square" alt="Slither" />
   <img src="https://img.shields.io/badge/Echidna-1C1C1C?style=flat-square" alt="Echidna" />
+  <img src="https://img.shields.io/badge/Anchor-1C1C1C?style=flat-square" alt="Anchor" />
 </p>
-
-### Programmes
-
-Active on **HackerOne**, **Bugcrowd**, **YesWeHack**, and **HackenProof**, plus self-hosted programmes run directly by projects. Reports go through each programme's own channel and severity rubric — private by default, disclosed only in coordination with the vendor.
 
 ### Contact
 
-- Security reports &amp; research inquiries: **hrydarie@gmail.com**
-- GitHub: [@mr-hrydarie](https://github.com/mr-hrydarie)
+- Security reports & research inquiries: **hrydarie@gmail.com**
+- Bug reports for a specific project go through that project's programme channel first
 
-<p align="center"><i>Prove it, quantify it, then report it.</i></p>
+<p align="center"><i>Prove it. Quantify it. Then report it.</i></p>
