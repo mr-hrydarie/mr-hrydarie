@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/matrix-banner.gif" width="100%" alt="matrix rain" /></p>
+
 <h1 align="center">mr-hrydarie</h1>
 
 <p align="center">
@@ -15,6 +17,8 @@
   <img src="https://img.shields.io/badge/Soroban%20%2F%20Rust-Stellar%20contracts-1f6feb?style=flat-square" alt="Soroban / Rust" />
   <img src="https://img.shields.io/badge/API%20%26%20Web-application%20security-1f6feb?style=flat-square" alt="API and Web" />
 </p>
+
+<p align="center"><img src="assets/terminal.svg" width="100%" alt="terminal session" /></p>
 
 ---
 
